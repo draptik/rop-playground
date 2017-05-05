@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Xunit;
 
-namespace RopDemo
+namespace RopDemo.Tests
 {
     public class Tests
     {
@@ -10,5 +10,7 @@ namespace RopDemo
         {
             1.ToString().Should().Be("1");
         }
+
+
     }
 }
