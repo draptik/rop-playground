@@ -64,6 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationService\AppLogic.cs" />
+    <Compile Include="ApplicationService\CustomerRepository.cs" />
+    <Compile Include="ApplicationService\MailService.cs" />
+    <Compile Include="Domain\Customer.cs" />
     <Compile Include="Maybe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\Tests.cs" />
@@ -71,9 +75,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Domain\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="FodyWeavers.xml" />
   </ItemGroup>
